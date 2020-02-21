@@ -1,0 +1,8 @@
+# main
+node_modules
+package-lock.json
+
+#src
+src/node_modules
+src/package-lock.json
+src/build
