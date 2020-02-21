@@ -6,3 +6,6 @@ package-lock.json
 src/node_modules
 src/package-lock.json
 src/build
+
+#survey
+survey/private
