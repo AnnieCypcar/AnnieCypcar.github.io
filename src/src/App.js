@@ -16,7 +16,7 @@ function App() {
             drop me a line
           </div>
         </a>
-        <footer>@2020 cypcar design</footer>
+        <footer>@{new Date().getFullYear()} cypcar design</footer>
       </div>
       
     </div>
