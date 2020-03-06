@@ -1,6 +1,5 @@
-# Annie Cypcar's fun little website
+# cypcardesign.com
 
-## Visit cypcardesign.com to view the live site.
-## All code is offered open source from cypcar design.
+## Annie Cypcar's fun little website
 
-### built from [Create React App](https://facebook.github.io/create-react-app)
+built from [Create React App](https://facebook.github.io/create-react-app)

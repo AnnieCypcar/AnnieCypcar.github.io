@@ -1,2 +1,5 @@
-# AnnieCypcar.github.io
-A tiny personal website for fun
+# cypcar design
+
+### cypcardesign.com is Annie Cypcar's fun little website
+
+built from [Create React App](https://facebook.github.io/create-react-app)

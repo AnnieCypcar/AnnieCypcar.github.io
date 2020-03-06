@@ -18,7 +18,6 @@ function App() {
         </a>
         <footer>@{new Date().getFullYear()} cypcar design</footer>
       </div>
-      
     </div>
   );
 }
