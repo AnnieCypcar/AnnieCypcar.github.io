@@ -63,34 +63,26 @@ a {
   animation-duration: 2s;
 }
 .contact:hover::after, .contact:hover::before {
-  left: 0;
-  width: 100%;
-  animation-iteration-count: 2;
+  left: 25%;
+  width: 50%;
+  animation-iteration-count: 20;
   animation-timing-function: linear;
 }
 
 @keyframes rotatecw {
   from {
-    left: 25%;
-    width: 50%;
     transform: rotate(0deg);
   }
   to {
-    left: 25%;
-    width: 50%;
     transform: rotate(360deg);
   }
 }
 
 @keyframes rotateccw {
   from {
-    left: 25%;
-    width: 50%;
     transform: rotate(0deg);
   }
   to {
-    left: 25%;
-    width: 50%;
     transform: rotate(-360deg);
    }
 }
