@@ -2,4 +2,6 @@
 
 ### cypcardesign.com is Annie Cypcar's fun little website
 
-built from [Create React App](https://facebook.github.io/create-react-app)
+### update from nov 2022
+
+Check out the source code README for information about the move to Svelte and Vite
