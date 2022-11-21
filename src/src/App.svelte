@@ -11,8 +11,25 @@
     <a href={`mailto:cypcardesign@gmail.com`}>
       <div class="contact">drop me a line</div>
     </a>
-    <footer>@{new Date().getFullYear()} cypcar design</footer>
   </div>
+  <footer>
+    <div id="links">
+      <li>
+        <a href="https://github.com/AnnieCypcar/AnnieCypcar.github.io">
+          github
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/annie-engineer/"> linkedin </a>
+      </li>
+      <li>
+        <a href="https://leetcode.com/cypcar/"> leetcode </a>
+      </li>
+    </div>
+    <span>
+      @{new Date().getFullYear()} cypcar design
+    </span>
+  </footer>
 </main>
 
 <style>
@@ -31,6 +48,7 @@
   }
   :global(a) {
     text-decoration: none;
+    color: #3e3939;
   }
 
   .title {
@@ -116,5 +134,15 @@
     bottom: 20px;
     width: 100%;
     margin: auto;
+  }
+
+  footer li {
+    display: inline;
+    padding: 0.8em;
+    vertical-align: middle;
+  }
+
+  #links {
+    padding: 1em 0;
   }
 </style>
