@@ -1,0 +1,44 @@
+.privacy-container {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background: url("../images/background.png"), linear-gradient(90deg,
+            rgba(255, 253, 234, 1) 20%,
+            rgba(141, 198, 224, 1) 100%);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.privacy-copy {
+    background: linear-gradient(90deg,
+            rgba(255, 253, 234, .2) 50%,
+            rgba(141, 198, 224, 0.8) 100%);
+    border-radius: 30px;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    padding: 0 0 30px 30px;
+}
+
+.privacy-copy h1 {
+    color: #000;
+    font-weight: 300;
+    font-size: calc(2vh + 2rem);
+}
+
+.privacy-copy h3 {
+    color: #187498;
+    font-weight: 700;
+    font-size: calc(2vh + 0.4rem);
+}
+
+.privacy-copy p {
+    color: #000;
+    font-size: calc(2vh + 0.2rem);
+    margin-bottom: 20px;
+    line-height: calc(2vh + 1rem);
+}

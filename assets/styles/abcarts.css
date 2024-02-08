@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: url("../images/background.png"), linear-gradient(90deg,
+            rgba(255, 253, 234, 1) 20%,
+            rgba(141, 198, 224, 1) 100%);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: flex-start;
+}
+
+.app-description {
+    background: linear-gradient(90deg,
+            rgba(255, 253, 234, .8) 50%,
+            rgba(141, 198, 224, 0.3) 100%);
+    padding: 20px 20px 80px 20px;
+    border-radius: 30px;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+    position: relative;
+    margin-top: 2px;
+}
+
+.app-description h2 {
+    color: #000;
+    font-weight: 300;
+    font-size: calc(2vh + 2rem);
+    line-height: 0;
+}
+
+.app-description h3 {
+    color: #187498;
+    font-weight: 700;
+    font-size: calc(2vh + 0.4rem);
+}
+
+.app-description p {
+    color: #000;
+    font-size: calc(2vh + 0.2rem);
+    margin-bottom: 20px;
+}
+
+.app-store-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+}
+
+.app-store-button img {
+    width: 100%;
+    max-width: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .app-description {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .app-store-button {
+        margin-top: 20px;
+    }
+
+    .app-description p {
+        margin-bottom: 10px;
+    }
+}

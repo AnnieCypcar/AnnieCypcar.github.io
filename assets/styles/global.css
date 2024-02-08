@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/lightening.png"), #000;
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+    background-size: 100%;
+    height: 100vh;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roberto', sans-serif;
+    color: #000;
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #187498;
+}
+
+.navbar {
+    background: #000;
+    display: flex;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    /* Align nav-links to the right */
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #FCF3EA;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 1em 0;
+}
+
+.footer-links {
+    padding: 1em 0;
+}
+
+.footer-links a {
+    display: inline;
+    padding: 0.8em;
+    vertical-align: middle;
+    color: #000;
+}
+
+footer.main .footer-links a {
+    color: #fff;
+}
+
+footer.main span.footer-copyright {
+    color: #fff;
+}
+
+footer span.footer-copyright {
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    footer {
+        position: relative;
+        background: #fff;
+    }
+
+    footer.main {
+        position: absolute;
+        background: #000;
+    }
+}
