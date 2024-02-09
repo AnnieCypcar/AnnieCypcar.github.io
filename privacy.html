@@ -55,7 +55,13 @@
         </div>
         <span class="footer-copyright">
             ©
-            <script>new Date().getFullYear()</script> cypcar design
+            <span id="copyright-date"></span> cypcar design
         </span>
     </footer>
+    <script type="text/javascript">
+        (function () {
+            const el = document.getElementById('copyright-date')
+            el.innerText = new Date().getFullYear()
+        }())
+    </script>
 </body>

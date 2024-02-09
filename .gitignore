@@ -1,6 +1,7 @@
 #src
 src/node_modules
 src/dist
+source
 
 # main
 node_modules
