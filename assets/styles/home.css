@@ -12,6 +12,10 @@
     background: rgba(0, 0, 0, 0.8);
 }
 
+.contact-button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
 .contact-button:before {
     content: '';
     background: linear-gradient(45deg, #FCF3EA, #AF69EE, #36AE7C, #187498, #FCF3EA);
